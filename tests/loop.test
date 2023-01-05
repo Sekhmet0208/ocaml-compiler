@@ -1,0 +1,8 @@
+var zoo;
+
+while (zoo) do
+
+  zoo = false;
+  
+;
+

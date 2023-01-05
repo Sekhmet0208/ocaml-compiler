@@ -1,0 +1,7 @@
+var zoo;
+
+zoo = 123;
+
+zoo = zoo * 321;
+
+return zoo;

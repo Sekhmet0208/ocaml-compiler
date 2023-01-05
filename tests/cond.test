@@ -1,0 +1,13 @@
+var zoo;
+
+if(zoo) then
+
+    zoo = 2;
+
+else 
+
+    zoo = 0;
+    
+return zoo;
+
+;

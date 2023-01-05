@@ -1,0 +1,9 @@
+(executable
+ (public_name projet)
+ (name main)
+ (libraries projet))
+
+(menhir
+ (modules parser))
+
+(ocamllex lexer)

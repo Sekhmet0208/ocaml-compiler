@@ -1,0 +1,29 @@
+type token =
+    Lwhile
+  | Lvar
+  | Ltrue of bool
+  | Lthen
+  | Lsub
+  | Lsc
+  | Lreturn
+  | LopenP
+  | Lmul
+  | Lint of int
+  | Lif
+  | Lident of string
+  | Lfalse of bool
+  | Lequal
+  | Leq
+  | Lend
+  | Lelse
+  | Ldo
+  | Ldiv
+  | LcloseP
+  | Ladd
+  | LNequal
+val menhir_begin_marker : int
+val xv_prog : Ast.Syntax.block
+val xv_instr : Ast.Syntax.block
+val xv_expr : Ast.Syntax.expr
+val xv_block : Ast.Syntax.block
+val menhir_end_marker : int
